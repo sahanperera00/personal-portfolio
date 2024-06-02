@@ -40,7 +40,7 @@ export default function Navbar() {
         </div>
       </div>
       <div
-        className={`bg-white lg:hidden transition-all duration-300 ease-in-out ${
+        className={`bg-white dark:bg-[#222222] lg:hidden transition-all duration-300 ease-in-out ${
           isDropdownOpen ? "max-h-60 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
