@@ -9,7 +9,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="container mx-auto mt-10 rounded-3xl overflow-hidden">
+    <div className="container mx-auto rounded-3xl overflow-hidden">
       <div className="h-[80px] lg:h-[110px] bg-white dark:bg-[#222222] grid grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="flex bg-[] items-center justify-start ml-10 lg:ml-20 text-xl gap-2">
           Sahan <span className="font-semibold"> Perera</span>
@@ -28,12 +28,14 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="flex bg-[] items-center justify-end mr-10 lg:justify-center">
-          <button className="gap-3 font-semibold border border-black dark:border-white px-5 py-3 rounded-xl hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black ease-in-out duration-300 hidden lg:flex">
-            Resume
-            <span className="material-symbols-outlined font-bold">
-              download
-            </span>
-          </button>
+          <a href="Sahan-Perera-Resume.pdf">
+            <button className="gap-3 border border-black dark:border-white px-5 py-3 rounded-xl hover:bg-black hover:font-semibold hover:text-white dark:hover:bg-white dark:hover:text-black ease-in-out duration-300 hidden lg:flex">
+              Resume
+              <span className="material-symbols-outlined font-bold">
+                download
+              </span>
+            </button>
+          </a>
           <button className="lg:hidden" onClick={toggleDropdown}>
             <span className="material-symbols-outlined">menu</span>
           </button>
