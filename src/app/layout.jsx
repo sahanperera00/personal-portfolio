@@ -1,7 +1,7 @@
 import "./globals.css";
 import { poppins } from "./fonts";
 import DarkModeToggle from "./components/DarkModeToggle";
-import Navbar from "./components/Navbar";
+import PageTransition from "./components/PageTransition";
 
 export const metadata = {
   title: "Sahan Perera",
@@ -22,9 +22,8 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={poppins.className} suppressHydrationWarning>
-        <Navbar />
         <DarkModeToggle />
-        {children}
+        <PageTransition>{children}</PageTransition>
       </body>
     </html>
   );
