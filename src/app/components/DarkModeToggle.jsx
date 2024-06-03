@@ -18,10 +18,10 @@ export default function DarkModeToggle() {
 
   return (
     <div
-      className="fixed bottom-8 right-8 w-[60px] h-[60px] bg-white dark:bg-[#222222] rounded-full flex items-center justify-center cursor-pointer"
+      className="fixed z-10 bottom-8 right-8 w-[60px] h-[60px] dark:bg-white bg-[#222222] rounded-full flex items-center justify-center cursor-pointer"
       onClick={toggleTheme}
     >
-      <span className="material-symbols-outlined text-xl text-[#222222] dark:text-white">
+      <span className="material-symbols-outlined text-xl dark:text-[#222222] text-white">
         {isDarkMode ? "light_mode" : "dark_mode"}
       </span>
     </div>
