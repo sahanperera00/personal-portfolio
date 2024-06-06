@@ -45,11 +45,11 @@ const PageTransition = ({ children, backgroundColor }) => {
     <div className="page curve" style={{ backgroundColor }}>
       <div
         style={{ opacity: dimensions.width == null ? 1 : 0 }}
-        className="transition-opacity duration-0 delay-100"
+        className="relative transition-opacity duration-0 delay-100"
       />
       <AnimatePresence mode="wait">
         <motion.p
-          className="absolute left-[50%] top-[40vh] lg:top-[30vh] text-[50px] md:text-[100px] lg:text-[200px] font-bold text-white z-[50] transform -translate-x-1/2 text-center"
+          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 whitespace-normal text-center text-[50px] md:text-[100px] lg:text-[200px] font-bold text-white z-[50] w-full px-4"
           {...anim(text)}
         >
           {routes[pathname]}

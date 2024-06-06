@@ -9,7 +9,7 @@ export const text = {
     transitionEnd: { top: "47.5%" },
   },
   exit: {
-    opacity: 1,
+    opacity: 0,
     top: "40%",
     transition: { duration: 0.75, delay: 0.3, ease: [0.33, 1, 0.68, 1] },
   },
