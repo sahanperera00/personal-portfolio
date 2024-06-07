@@ -3,6 +3,8 @@ import React from "react";
 import LandingSection from "./components/LandingSection";
 import About from "./components/AboutSection";
 import Banner from "./components/BannerSection";
+import Contact from "./components/ContactSection";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <LandingSection />
       <About />
       <Banner />
+      <Contact />
+      <Footer />
     </div>
   );
 }
