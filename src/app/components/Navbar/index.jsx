@@ -9,7 +9,7 @@ export default function Navbar() {
       </Link>
       <Link href="/">
         <p className="text-center">
-          <span class="material-symbols-outlined">directory_sync</span>
+          <span className="material-symbols-outlined">directory_sync</span>
         </p>
       </Link>
       <p className="font-medium text-end">Profile</p>

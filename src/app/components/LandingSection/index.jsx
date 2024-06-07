@@ -12,7 +12,7 @@ export default function LandingSection() {
           animate={{ x: 0, opacity: 1 }}
           transition={{ ease: "easeInOut", duration: 0.5 }}
         >
-          Sahan
+          Sahan*
         </motion.p>
         <motion.p
           className="text-end"
@@ -39,12 +39,15 @@ export default function LandingSection() {
           repeat={Infinity}
         />
       </code>
-      <span
+      <motion.span
         className="material-symbols-outlined absolute bg-[] py-5 px-2 rounded-full border border-2 border-black dark:border-white bottom-[10vh] right-[30vw] bounce"
         style={{ fontSize: "45px" }}
+        initial={{ y: "50vw", opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ ease: "easeInOut", duration: 0.5 }}
       >
         south
-      </span>
+      </motion.span>
     </section>
   );
 }
