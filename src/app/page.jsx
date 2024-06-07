@@ -1,15 +1,19 @@
+"use client";
 import React from "react";
-import Navbar from "./components/Navbar";
+import LandingSection from "./components/LandingSection";
+import About from "./components/AboutSection";
+import Banner from "./components/BannerSection";
+import Contact from "./components/ContactSection";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <div className="w-screen h-screen bg-[#e4e7e8] dark:bg-[#2b2b2b] text-black dark:text-white flex items-center justify-center">
-        <h1 className="text-[50px] md:text-[100px] lg:text-[200px] font-bold ">
-          Home
-        </h1>
-      </div>
-    </>
+    <div className="bg-[#e4e7e8] dark:bg-[#1a1a1a] text-black dark:text-white flex flex-col">
+      <LandingSection />
+      <About />
+      <Banner />
+      <Contact />
+      <Footer />
+    </div>
   );
 }

@@ -1,0 +1,99 @@
+{
+  "technologies": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Fhtml.png?alt=media&token=a53bbb3d-cabf-4fd1-b646-ea82c87cee05"
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Fcss.png?alt=media&token=6365cf0e-0199-4ac8-817b-7c86cc7d25b4"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Fjavascript.png?alt=media&token=3df02887-f0a5-4c6d-aa50-87a42bcb7dfd"
+    },
+    {
+      "id": 4,
+      "name": "PHP",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Fphp.png?alt=media&token=19da121f-fa4e-403e-abd7-230cfccd5d83"
+    },
+    {
+      "id": 5,
+      "name": "MySQL",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Fmysql.png?alt=media&token=def11c15-cdbe-462e-89b4-2d15083cc564"
+    },
+    {
+      "id": 6,
+      "name": "Java",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Fjava.png?alt=media&token=694d700d-8502-4f79-885a-c00abb2e1074"
+    },
+    {
+      "id": 7,
+      "name": "Tailwind",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Ftailwind.png?alt=media&token=c01333ef-c209-4474-8688-5a7bd2116a0b"
+    },
+    {
+      "id": 8,
+      "name": "Firebase",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Ffirebase.png?alt=media&token=1a87094b-e2ff-4a0f-8112-739e92fa7681"
+    },
+    {
+      "id": 9,
+      "name": "React",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Freact.png?alt=media&token=d75ad241-778e-45a4-bac6-127a193f7c89"
+    },
+    {
+      "id": 10,
+      "name": "MongoDB",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Fmongodb.png?alt=media&token=2cee34f9-d5bb-4ce2-a994-6e188f43b85f"
+    },
+    {
+      "id": 11,
+      "name": "Node",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Fnode.png?alt=media&token=6ff7b273-8f28-4cc6-b61f-4071309ad93c"
+    },
+    {
+      "id": 12,
+      "name": "Bootstrap",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Fbootstrap.png?alt=media&token=fef655b3-fa2e-4763-a697-71b17ac0960f"
+    },
+    {
+      "id": 13,
+      "name": "Postman",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Fpostman.png?alt=media&token=0b848470-72b7-4893-b2f6-47cd3a3fd656"
+    },
+    {
+      "id": 14,
+      "name": "ReactNative",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Freactnative.png?alt=media&token=5716c763-cd8d-4c50-bef3-a83771a53439"
+    },
+    {
+      "id": 15,
+      "name": "Docker",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Fdocker.png?alt=media&token=00c45a11-410b-4603-8d97-c2946a29cd18"
+    },
+    {
+      "id": 16,
+      "name": "JWT",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Fjwt.png?alt=media&token=27f04c0b-d298-4bb4-a484-f463636d135a"
+    },
+    {
+      "id": 17,
+      "name": "SpringBoot",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Fspringboot.png?alt=media&token=f76cff3b-2c8f-4ab8-9102-d5106dc2b31b"
+    },
+    {
+      "id": 18,
+      "name": "GraphQL",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Fgraphql.png?alt=media&token=9fdc35bc-9592-48d1-8f8e-7e55ac3143c3"
+    },
+    {
+      "id": 19,
+      "name": "MariaDB",
+      "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-4dd9f.appspot.com/o/technologies%2Fmariadb.png?alt=media&token=42d1d06a-d18a-449b-a112-143c414797da"
+    }
+  ]
+}
